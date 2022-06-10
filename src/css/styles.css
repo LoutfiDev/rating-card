@@ -1,0 +1,52 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+img { min-width: 100%; border: none; }
+
+html, body, #root { min-height: 100vh; }
+
+@font-face { font-family: 'Overpass'; src: url(../fonts/Overpass/Overpass-Regular.ttf) format("truetype"); }
+
+@font-face { font-family: 'Overpass-bold'; src: url(../fonts/Overpass/Overpass-Bold.ttf) format("truetype"); }
+
+body { font-family: 'Overpass',sans-serif; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 1; letter-spacing: normal; }
+
+h1 { font-family: 'Overpass-bold'; font-size: clamp(1rem, 10vw, 2rem); font-weight: 700; color: white; margin-bottom: 20px; }
+
+p { font-size: 15px; color: #959eac; line-height: 1.15rem; margin-bottom: 20px; }
+
+span { font-size: 15px; color: #959eac; line-height: 1.15rem; }
+
+a { text-decoration: none; }
+
+.btn, button { text-transform: uppercase; font-size: 12px; font-weight: 700; color: white; letter-spacing: 2px; }
+
+body { background-color: #121417; color: #959eac; }
+
+a { color: #959eac; cursor: pointer; }
+
+a:hover { color: #fb7413; }
+
+span:not(.subSpan) { background-color: #252d37; padding: 15px 20px; display: inline-block; text-align: center; border-radius: 40px; cursor: pointer; margin-right: 6px; }
+
+span:not(.subSpan):first-child { padding: 15px 22px; }
+
+span:not(.subSpan):last-child { margin-right: 0; }
+
+span:not(.subSpan):hover { background-color: #959eac; color: white; }
+
+button, .btn { background: #fb7413; color: white; width: 100%; border-radius: 25px; padding: 13px 0px; display: inline-block; text-align: center; cursor: pointer; }
+
+button:hover, .btn:hover { color: #fb7413; background-color: white; }
+
+.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm { width: 100%; padding-right: var(--bs-gutter-x, 0.75rem); padding-left: var(--bs-gutter-x, 0.75rem); margin-right: auto; margin-left: auto; }
+
+@media (min-width: 576px) { .container-sm, .container { max-width: 540px; } }
+
+@media (min-width: 768px) { .container-md, .container-sm, .container { max-width: 720px; } }
+
+@media (min-width: 992px) { .container-lg, .container-md, .container-sm, .container { max-width: 960px; } }
+
+@media (min-width: 1200px) { .container-xl, .container-lg, .container-md, .container-sm, .container { max-width: 1140px; } }
+
+@media (min-width: 1400px) { .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container { max-width: 1320px; } }
+/*# sourceMappingURL=styles.css.map */

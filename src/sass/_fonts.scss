@@ -1,0 +1,54 @@
+
+//Overpass
+@font-face {
+    font-family: 'Overpass';
+    src: url(../fonts/Overpass/Overpass-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Overpass-bold';
+    src: url(../fonts/Overpass/Overpass-Bold.ttf) format('truetype');
+}
+
+body{
+    font-family: 'Overpass',sans-serif;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+}
+
+
+h1{
+    font-family: 'Overpass-bold';
+    font-size: clamp(1rem, 10vw, 2rem);
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    line-height: 1.15rem;
+    margin-bottom: 20px;
+}
+
+span{
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    line-height: 1.15rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn ,button{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 2px;
+}

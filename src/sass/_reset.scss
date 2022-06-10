@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img {
+    min-width: 100%;
+    border: none;
+}
+
+
+html,
+body, #root {
+  min-height: 100vh;
+}
+
